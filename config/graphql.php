@@ -60,7 +60,7 @@ return [
      */
     'middleware' => [],
 
-    /**
+    /*
      * Any middleware for a specific 'graphql' schema
      */
     'middleware_schema' => [
@@ -128,8 +128,8 @@ return [
             ],
             'mutation' => [
 
-            ]
-        ]
+            ],
+        ],
     ],
 
     /*
@@ -205,6 +205,6 @@ return [
     'security' => [
         'query_max_complexity' => null,
         'query_max_depth' => null,
-        'disable_introspection' => false
-    ]
+        'disable_introspection' => false,
+    ],
 ];
