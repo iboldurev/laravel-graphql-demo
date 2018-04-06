@@ -10,7 +10,7 @@ class Example extends Query
 {
     protected $attributes = [
         'name' => 'Example',
-        'description' => 'Example query'
+        'description' => 'Example query',
     ];
 
     public function type()
@@ -21,7 +21,7 @@ class Example extends Query
     public function args()
     {
         return [
-            
+
         ];
     }
 
